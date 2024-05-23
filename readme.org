@@ -1,0 +1,13 @@
+* HotSwap
+
+Proof of concept program for hot swapping code. Program runs in a loop, waiting for user either to type 'q' for quit or 'r' for reload. Initially program has loaded fooFunc1, but after reload, fooFunc2, this can be observed in real time or in the log.txt created. Program attempts to have accurate timestamps.
+
+** Requirenments
+g++ with C++20 support 10.1+ should be ok
+[[https://github.com/fmtlib/fmt][libfmt]]
+
+** Complie
+#+begin_src sh
+chmod +x complie.sh
+./compile.sh
+#+end_src
